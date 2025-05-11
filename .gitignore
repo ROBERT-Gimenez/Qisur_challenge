@@ -1,0 +1,6 @@
+# Archivos de entorno 
+.env
+
+# Archivos binarios y de compilación
+server
+*.exe
