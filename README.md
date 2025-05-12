@@ -405,10 +405,11 @@ Lista el historial de un producto
 
 #### GET /api/search?type=product&name=celular&sort=price_asc&page=1&limit=10
 Realiza una busque por filtros pasados por parametro
-type = product | category
-ejemplos:
--/api/search?type=product&id=3&limit=5
--/api/search?type=category&name=tecnologia&limit=3
+` type = product | category`
+
+Ejemplos:
+ + -/api/search?type=product&id=3&limit=5
+ + -/api/search?type=category&name=tecnologia&limit=3
 
 **Response Body:**
 ```json
