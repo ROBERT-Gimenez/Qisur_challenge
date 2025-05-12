@@ -9,6 +9,7 @@ Este proyecto es una API RESTful y un sistema de WebSockets desarrollado en Go p
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Instalación y Configuración](#instalación-y-configuración)
 - [Listado de Apis](#listado-de-apis)
+- [Colección de Postman](#colección-de-postman)
 - [WebSockets](#websockets)
 - [Configuración de PostgreSQL](#configuración-de-postgresql)
 - [Diagrama ERD de BD](#diagrama-de-bd)
@@ -422,6 +423,14 @@ ejemplos:
     }
 ]
 ```
+
+## Colección de Postman
+
+Para facilitar las pruebas de las APIs, se incluye una colección de Postman:  
+[`qisur-challenge.postman_collection.json`](./qisur-challenge.postman_collection.json)
+
+Podés importarla en Postman para visualizar y ejecutar todas las solicitudes organizadas.
+
 
 ## **WebSockets**
 ####  ws://localhost:8080/ws
