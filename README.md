@@ -166,9 +166,11 @@ Listar Productos
 ```
 #### GET /api/products/{id}
 Obtiene un producto por numero de id
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
+
 **Response Body:**
 ```json
 {
@@ -190,9 +192,11 @@ Obtiene un producto por numero de id
 
 #### POST /api/products
 Crea un nuevo producto
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
+
 **Request Body:**
 ```json
 {
@@ -219,9 +223,11 @@ Crea un nuevo producto
 
 #### PUT /api/products/{id}
 Actualizamos un producto por su id , se actualizaran los datos de los campos que se pasen
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
+
 **Request Body:**
 ```json
 {
@@ -254,6 +260,7 @@ Actualizamos un producto por su id , se actualizaran los datos de los campos que
 
 #### DELETE /api/products/{id}
 Elimina un producto por su id
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
@@ -284,6 +291,7 @@ Lista las categorias
 ```
 #### GET /api/categories/{id}
 Obtiene el detalle de una categoria
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
@@ -305,6 +313,7 @@ Obtiene el detalle de una categoria
 
 #### Put /api/categories/{id}
 Actualiza los datos de una categoria
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
@@ -335,6 +344,7 @@ Actualiza los datos de una categoria
 
 #### DELETE /api/categories/{id}
 Elimina una categoria por su id
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
@@ -347,6 +357,7 @@ status:204
 
 #### POST /api/categories
 Crea una nueva categoria
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
@@ -373,6 +384,7 @@ Crea una nueva categoria
 
 #### GET /api/products/{id}/history?start=2025-02-02&end=2025-06-22
 Lista el historial de un producto
+
 **Headers:**  
 `Content-Type: application/json`  
 `Authorization: Bearer <token>`
