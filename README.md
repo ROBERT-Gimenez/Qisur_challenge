@@ -8,11 +8,10 @@ Este proyecto es una API RESTful y un sistema de WebSockets desarrollado en Go p
 - [Requerimientos Técnicos](#requerimientos-técnicos)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Instalación y Configuración](#instalación-y-configuración)
-- [Uso de la API](#uso-de-la-api)
-  - [Autenticación](#autenticación)
-  - [Endpoints REST](#endpoints-rest)
-  - [WebSockets](#websockets)
+- [Listado de Apis](#listado-de-apis)
+- [WebSockets](#websockets)
 - [Configuración de PostgreSQL](#configuración-de-postgresql)
+- [Diagrama ERD de BD](#diagrama-de-bd)
 
 ## Objetivo
 
@@ -121,7 +120,7 @@ Migraciones completadas.
 Servidor iniciado en el puerto 8080
 ``` 
 
-4. **Uso de la API**
+## **Listado de Apis**
 ## 🔐 Token de Autenticación
 
 #### POST /api/login 
@@ -412,7 +411,7 @@ ejemplos:
 ]
 ```
 
-5. **WebSockets**
+## **WebSockets**
 ####  ws://localhost:8080/ws
  + Postman: Crea una WebSocket Request.
 Al crear, actualizar o eliminar productos/categorías, el servidor emitirá eventos en tiempo real, por 
@@ -460,3 +459,7 @@ DB_PASSWORD=admin1
 DB_NAME=qisur_challenge
 DB_PORT=5432
 ```
+
+## Diagrama ERD de BD
+
+![alt text](diagramaDB.png)
